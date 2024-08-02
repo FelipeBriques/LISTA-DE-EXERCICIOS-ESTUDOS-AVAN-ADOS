@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main ()
+{
+    int n, na, ns;
+    printf("Digite um numero: ");
+    scanf("%d", &n);
+    na=n-1;
+    ns=n+1;
+    printf("Antecessor: %d \nSucessor: %d", na,ns);
+}
